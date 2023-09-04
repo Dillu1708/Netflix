@@ -1,0 +1,195 @@
+body{
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  display: flex;
+
+  font-family: "Roboto", sans-serif;
+  background-size: cover;
+  background-position: center;
+background-repeat: no-repeat;
+  background-image: url("./netflixteaser.png");
+  max-height:100%;
+
+
+  background-color: rgba(8, 8, 8, 0.89);
+ 
+    
+   
+}
+.get-started-button:hover{
+  box-shadow: 1px 1px 1px  red;
+}
+img{
+    width:15%;
+    margin-left:10%;
+}
+.main-text{
+    text-align: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding:120px;
+}
+.net-back{
+    
+    margin-top:0px;;
+  
+    width:100%;
+    
+}
+.signin{
+    background-color: #f70000;
+   
+}
+.text-mail1,.text-mail2{
+    padding:1.5%;
+    color:white;
+}
+.text-mail1{
+    outline: white;
+    background-color: #e1e1e1;
+    color: #e1e1e1;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 1px #e1e1e1;
+    border-radius: 5px;
+    background-color: transparent;
+}
+#dropdown{
+    background-color: #999;
+    outline:none;
+    border:none;
+    
+
+}
+.butn1:hover{
+   background-color: #f70000c1;
+   
+}
+.small-cnt{
+    margin-left:50%;
+}
+.butn{
+   padding:5px;
+   border-radius: 5px;
+   cursor: pointer;
+   color:white;
+}
+.container {
+   margin-bottom:20%;
+    display: flex;
+    flex-direction: row; /* Default: side by side */
+    align-items: center; /* Align items vertically in the middle */
+    justify-content: center; /* Center content horizontally */
+  }
+  .cont-one{
+    display: flex;
+
+    
+    flex-direction: row; /* Default: side by side */
+    align-items: center; /* Align items vertically in the middle */
+    justify-content: center; /* Center content horizontally */
+  }
+  
+
+  .textbox {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+    
+  }
+
+  .get-started-button {
+    padding: 10px 20px;
+    background-color: #f70000;
+    color: #fff;
+    border: none;
+    margin-left:5%;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px; /* Add some space between textbox and button */
+  }
+  
+  /* Media Query for smaller screens */
+  @media screen and (max-width: 600px) {
+    .container {
+      flex-direction: column; /* Stacking: top and bottom */
+      align-items: stretch; /* Reset align-items for stacking */
+      margin: 0 auto; /* Center container vertically */
+    }
+  
+    .textbox-container {
+      flex: none; /* Reset flex to prevent stretching */
+      margin-bottom: 10px; /* Add some space between textbox and button */
+      width:50%;
+      margin-left:25%;
+    }
+    .get-started-button{
+      flex: none; /* Reset flex to prevent stretching */
+      margin-bottom: 10px; /* Add some space between textbox and button */
+      width:33%;
+      margin-left:33%;
+    }
+    .small-cnt{
+    flex-direction: column; /* Stacking: top and bottom */
+      align-items: stretch; /* Reset align-items for stacking */
+      margin: 0 auto; 
+    }
+    body{
+      height:200%;
+    }
+    
+  }
+  .textbox{
+    box-shadow: 10px 10px 10px black;
+  }
+  .textbox:hover{
+    box-shadow: 1px 1px 1px white;
+  }
+  
+  
+::placeholder{
+    font-size: 16px;
+    color: #999;
+}
+
+
+@media screen and (max-width: 600px) {
+    .text-mail2,.text-mail1{
+      padding: 8px 16px;
+    }
+    .main-text{
+      padding:0px;
+        margin: 0 auto;
+      width:100%;
+      margin-top:50%;
+    }
+    .cont-one{
+     
+      margin-top: 10%;
+    }
+    .small-cnt{
+      margin-right: 3%;;
+    }
+    .net-back{
+      width: 100%;
+    }
+    .head{
+      width:100%;
+    }
+    form{
+      margin-bottom:80%;
+    }
+   
+  }
+  .head{
+    text-shadow: 10px 10px 10px black;
+  }
+
+
+
